@@ -1,0 +1,32 @@
+.footer {
+  padding: 1.8rem 2.5rem;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  font-size: 12px;
+  color: var(--ink-3);
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: color 0.15s;
+  padding: 0;
+}
+
+.link:hover {
+  color: var(--ink);
+}
