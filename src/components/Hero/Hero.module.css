@@ -7,7 +7,7 @@
 
 .heroLayout{
   display: grid;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1fr 520px;
   align-items: center;
   gap: 2rem;
 }
@@ -44,7 +44,7 @@
 }
 
 .heading {
-  font-size: clamp(2rem, 4.5vw, 4.2rem);
+  font-size: clamp(2.8rem, 4.5vw, 4.4rem);
   font-weight: 600;
   letter-spacing: -1.5px;
   line-height: 1.1;
@@ -119,7 +119,7 @@
 
 .statNum {
   display: block;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: -1.5px;
   color: var(--ink);
@@ -134,7 +134,7 @@
 
 .graphic {
   width: 100%;
-  max-width: 420px;
+  max-width: 520px;
   justify-self: center;
 }
 

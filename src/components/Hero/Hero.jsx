@@ -84,7 +84,7 @@ export default function Hero() {
           <div className={styles.content}>
             <motion.div className={styles.status} {...fade(0.1)}>
               <span className={styles.greenDot} />
-              available for new work
+              Available for work
             </motion.div>
 
             <motion.h1 className={styles.heading} {...fade(0.2)}>
