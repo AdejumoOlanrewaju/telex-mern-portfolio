@@ -59,7 +59,7 @@ export default function Contact() {
 
           <div className={styles.right}>
             {contactLinks.map((c) => (
-              <a key={c.label} href={c.href} className={styles.link}>
+              <a key={c.label} href={c.href} className={styles.link} target='_blank'>
                 {c.icon}
                 {c.label}
               </a>

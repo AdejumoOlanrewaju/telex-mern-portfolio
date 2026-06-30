@@ -1,52 +1,68 @@
 export const projects = [
   {
     id: 1,
-    title: 'Multi-vendor E-commerce Platform',
+    title: 'Booker - Booking & Appointment System',
     description:
-      'A full marketplace where vendors list products, manage inventory, and process payments. Role-based system for buyers, sellers, and admins — with real-time order tracking and Stripe checkout.',
-    stack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'JWT'],
+      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and Google auth via Firebase.',
+    stack: ['ReactJS', 'MongoDB', 'Node.js', 'Express', 'Tailwind CSS'],
+    color: '#fffbeb',
+    iconColor: '#d97706',
+    demo: 'https://booker-sigma.vercel.app',
+    github: '#',
+    featured: false,
+  },
+
+  {
+    id: 2,
+    title: 'Telex Blog - Full Blog Website With Admin Dashboard',
+    description:
+      'Full stack blog website with admin dashboard, user authentication, and CRUD operations. Built with React, Firebase and Admin can Manage the blog content.',
+    stack: ['NextJS', 'Firebase', 'Tailwind CSS', 'Zustand'],
+    color: '#f0fdf4',
+    iconColor: '#16a34a',
+    demo: 'https://telex-blog.vercel.app',
+    github: '#',
+    featured: false,
+  },
+
+  {
+    id: 3,
+    title: 'TelexZip - Video/Image Compressor & File Converter',
+    description:
+      'A utility application that allows users to compress videos, compress images, and convert files from one format to another. Built with ReactNative and available on Google Play Store.',
+    stack: ['ReactNative', 'expo', 'expo-dev-client', 'nativewindcss', 'typescript'],
     color: '#eeedfb',
     iconColor: '#5346dc',
-    demo: '#',
+    demo: 'https://play.google.com/store/apps/details?id=com.telextech.snapkit',
+    github: '#',
+    featured: false,
+  },
+
+  {
+    id: 4,
+    title: 'TelexChat - Full-Stack Chat Application',
+    description:
+      'Full stack chat application with real time messaging, user authentication, and nice UI. Built with Angular and Firebase',
+    stack: ['Angular', 'Firebase'],
+    color: '#fff1f2',
+    iconColor: '#e11d48',
+    demo: 'https://telex-chat-ng.vercel.app',
+    github: '#',
+    featured: false,
+  },
+  
+  {
+    id: 5,
+    title: 'NovaAI - Landing Page for AI Saas Product',
+    description:'A landing page for a AI Saas product with nice UI and responsive design. Built with ReactJS and Tailwind CSS',
+    stack: ['ReactJS', 'Tailwind CSS'],
+    color: '#eeedfb',
+    iconColor: '#5346dc',
+    demo: 'https://nova-ai-jet-ten.vercel.app',
     github: '#',
     featured: true,
   },
-  {
-    id: 2,
-    title: 'Project Management Tool',
-    description:
-      'Real-time kanban board with drag-and-drop, team invitations, and live activity feed. Demonstrates real-time architecture with Socket.io and complex UI state management.',
-    stack: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-    color: '#f0fdf4',
-    iconColor: '#16a34a',
-    demo: '#',
-    github: '#',
-    featured: false,
-  },
-  {
-    id: 3,
-    title: 'Booking & Appointment System',
-    description:
-      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and Google auth via Firebase.',
-    stack: ['Angular', 'Firebase', 'Node.js', 'Firestore'],
-    color: '#fffbeb',
-    iconColor: '#d97706',
-    demo: '#',
-    github: '#',
-    featured: false,
-  },
-  {
-    id: 4,
-    title: 'Full-Stack Auth API Starter',
-    description:
-      'Open-source Node.js + MongoDB auth boilerplate with JWT refresh tokens, role-based access control, rate limiting, and full Swagger documentation.',
-    stack: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Swagger'],
-    color: '#fff1f2',
-    iconColor: '#e11d48',
-    demo: '#',
-    github: '#',
-    featured: false,
-  },
+
 ]
 
 export const skills = [
@@ -71,7 +87,7 @@ export const skills = [
     items: ['Vercel', 'Render', 'Railway', 'Netlify'],
   },
   {
-    category: 'Learning',
-    items: ['Docker', 'GraphQL', 'AWS'],
+    category: 'Future Learning',
+    items: ['Docker', 'AWS'],
   },
 ]
