@@ -64,7 +64,7 @@ export default function Contact() {
                 {c.label}
               </a>
             ))}
-            <a href="mailto:your@email.com" className={styles.cta}>
+            <a href="mailto:olanrewajuadejumo56@gmail.com" className={styles.cta}>
               Send a message
             </a>
           </div>

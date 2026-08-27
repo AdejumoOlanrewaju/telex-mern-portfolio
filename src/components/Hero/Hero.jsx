@@ -89,7 +89,8 @@ export default function Hero() {
 
             <motion.h1 className={styles.heading} {...fade(0.2)}>
               Full-stack developer<br />
-              based in <span className={styles.accent}>Lagos.</span>
+              open to remote work<span className={styles.accent}> worldwide.</span>
+              
             </motion.h1>
 
             <motion.p className={styles.desc} {...fade(0.3)}>
@@ -110,7 +111,7 @@ export default function Hero() {
             <motion.div className={styles.stats} {...fade(0.5)}>
               {[
                 { num: '3+', label: 'Years experience' },
-                { num: '10+', label: 'Projects shipped' },
+                // { num: '10+', label: 'Projects shipped' },
                 { num: '5', label: 'Core technologies' },
               ].map((s) => (
                 <div key={s.label} className={styles.stat}>

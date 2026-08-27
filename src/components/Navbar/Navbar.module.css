@@ -1,5 +1,4 @@
 .nav {
-
   padding: 1rem 2.5rem;
   position: fixed;
   top: 0;
@@ -9,7 +8,7 @@
   transition: background 0.3s, border-bottom 0.3s;
 }
 
-.navLayout{
+.navLayout {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,8 +68,25 @@
   transition: opacity 0.15s;
 }
 
+.cvLink {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 18px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background-color: transparent;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.1px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 .hire:hover {
   opacity: 0.8;
+}
+
+.cvLink:hover {
+  background-color: var(--ink);
+  color: var(--white)
 }
 
 .burger {
@@ -86,7 +102,7 @@
 .bar {
   display: block;
   width: 22px;
-  height: 1.5px;
+  height: 2px;
   background: var(--ink);
   transition: transform 0.2s, opacity 0.2s;
 }
@@ -96,7 +112,7 @@
   width: 22px;
   height: 1.5px;
   background: var(--ink);
-  transform: rotate(45deg) translate(4.5px, 4.5px);
+  transform: rotate(45deg) translate(1px, 3px);
 }
 
 .barOpen2 {
@@ -104,7 +120,7 @@
   width: 22px;
   height: 1.5px;
   background: var(--ink);
-  transform: rotate(-45deg) translate(4.5px, -4.5px);
+  transform: rotate(-45deg) translate(1px, -3.2px);
 }
 
 .mobileMenu {
@@ -151,12 +167,48 @@
   border-radius: var(--radius-sm);
   font-family: var(--font-sans);
   cursor: pointer;
+  transition: opacity 0.2s;
 }
 
+.mobileCvLink {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 12px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background-color: transparent;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-sans);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.mobileHire:hover{
+  opacity: 0.8;
+}
+
+.mobileCvLink:hover {
+  background-color: var(--ink);
+  color: var(--white)
+}
+
+.flexMini {
+  display: flex;
+  align-items: center;
+  gap: 7px
+}
+
+
 @media (max-width: 640px) {
-  .links, .hire {
+
+  .links,
+  .hire,
+  .cvLink {
     display: none;
   }
+
   .burger {
     display: flex;
   }

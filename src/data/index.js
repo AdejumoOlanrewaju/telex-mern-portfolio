@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: 'Booker - Booking & Appointment System',
     description:
-      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and Google auth via Firebase.',
+      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and authentication.',
     stack: ['ReactJS', 'MongoDB', 'Node.js', 'Express', 'Tailwind CSS'],
     color: '#fffbeb',
     iconColor: '#d97706',
@@ -86,8 +86,8 @@ export const skills = [
     category: 'Deployment',
     items: ['Vercel', 'Render', 'Railway', 'Netlify'],
   },
-  {
-    category: 'Future Learning',
-    items: ['Docker', 'AWS'],
-  },
+  // {
+  //   category: 'Future Learning',
+  //   items: ['Docker', 'AWS'],
+  // },
 ]

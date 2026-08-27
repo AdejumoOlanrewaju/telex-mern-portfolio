@@ -30,7 +30,7 @@ export default function About() {
         <div className={styles.cols}>
           <div className={styles.copy}>
             <p>
-              I'm a Lagos-based full-stack JavaScript developer with 3+ years of experience
+              I'm a full-stack JavaScript developer with 3+ years of experience
               building web applications across the entire stack — from pixel-perfect
               frontends to robust, scalable APIs.
             </p>

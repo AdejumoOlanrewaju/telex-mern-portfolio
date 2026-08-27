@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import styles from './Navbar.module.css'
 
-const links = ['about', 'skills', 'projects', 'contact']
+const links = ['about', 'skills', 'experience', 'projects', 'contact']
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -40,14 +40,22 @@ export default function Navbar() {
             ))}
           </div>
 
-          <button className={styles.hire} onClick={() => scrollTo('contact')}>
-            hire me
-          </button>
+          <div className={styles.flexMini}>
+            <button className={styles.hire} onClick={() => scrollTo('contact')}>
+              hire me
+            </button>
 
-          <button className={styles.burger} onClick={() => setMenuOpen(!menuOpen)}>
-            <span className={menuOpen ? styles.barOpen1 : styles.bar} />
-            <span className={menuOpen ? styles.barOpen2 : styles.bar} />
-          </button>
+            <a className={styles.cvLink} href="/resume.pdf" download="Adejumo_Olanrewaju_Resume.pdf">
+              Download Resume
+            </a>
+
+            <button className={styles.burger} onClick={() => setMenuOpen(!menuOpen)}>
+              <span className={menuOpen ? styles.barOpen1 : styles.bar} />
+              <span className={menuOpen ? styles.barOpen2 : styles.bar} />
+              {/* <span className={menuOpen ? styles.barOpen2 : styles.bar} /> */}
+            </button>
+
+          </div>
 
           <AnimatePresence>
             {menuOpen && (
@@ -66,6 +74,9 @@ export default function Navbar() {
                 <button className={styles.mobileHire} onClick={() => scrollTo('contact')}>
                   hire me
                 </button>
+                <a className={styles.mobileCvLink} href="/resume.pdf" download="Adejumo_Olanrewaju_Resume.pdf">
+                  Download Resume
+                </a>
               </motion.div>
             )}
           </AnimatePresence>

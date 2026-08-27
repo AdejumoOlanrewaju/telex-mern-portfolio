@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className={styles.footer}>
-      <p className={styles.copy}>© 2025 Adejumo Olanrewaju</p>
+      <p className={styles.copy}>© 2026 Adejumo Olanrewaju</p>
       <div className={styles.links}>
         {['home', 'projects', 'contact'].map((link) => (
           <button key={link} className={styles.link} onClick={() => scrollTo(link === 'home' ? 'home' : link)}>
