@@ -62,7 +62,7 @@ export default function Projects() {
                 <p className={styles.projDesc}>{project.description}</p>
                 <div className={styles.links}>
                   <a href={project.demo}  target='_blank' className={styles.projLink}>Live demo →</a>
-                  {/* <a href={project.github} target='_blank' className={styles.projLink}>GitHub →</a> */}
+                  <a href={project.github} target='_blank' className={styles.projLink}>GitHub →</a>
                 </div>
               </div>
             </motion.div>

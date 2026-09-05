@@ -8,7 +8,7 @@ const experience = [
     period: '2023 — Present',
     sub: 'Various Client Projects',
     points: [
-      'Built full-stack web applications for clients across business, education, and SaaS industries, handling both frontend and backend development end-to-end',
+      'Built full-stack web applications for clients across business, education, and SaaS industries.',
       'Developed responsive, cross-browser-compatible UIs using React.js and Angular, integrating RESTful APIs and backend services built with Firebase',
       'Designed and managed MongoDB databases and Firebase/Firestore collections for real-time data handling and user authentication',
       'Collaborated directly with clients to gather requirements, define technical specs, and deliver production-ready solutions on time',
