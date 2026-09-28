@@ -5,18 +5,34 @@ import styles from './Experience.module.css'
 const experience = [
   {
     title: 'Full-Stack Developer (Freelance)',
-    period: '2023 — Present',
-    sub: 'Various Client Projects',
+    period: '2026 — Present',
+    sub: 'TelexTech · Contract Web & Mobile Projects',
     points: [
-      'Built full-stack web applications for clients across business, education, and SaaS industries.',
-      'Developed responsive, cross-browser-compatible UIs using React.js and Angular, integrating RESTful APIs and backend services built with Firebase',
-      'Designed and managed MongoDB databases and Firebase/Firestore collections for real-time data handling and user authentication',
-      'Collaborated directly with clients to gather requirements, define technical specs, and deliver production-ready solutions on time',
-      'Deployed applications to Vercel, Render, and Netlify; managed version control via GitHub',
+      'Built Kayzee Global Computer Networks, a live e-commerce and repair-booking site for a laptop sales and repair business.',
+      'Built the front end of a client mobile banking app in React Native from a supplied developer guide and API spec.',
+      'Take on contract work building web and mobile applications for clients, from requirements through deployment.',
+      'Deploy to Vercel, Render, and Netlify; manage version control via GitHub.',
+    ],
+  },
+  {
+    title: 'Full-Stack Developer (Industrial Training)',
+    period: 'Mar 2025 — Sep 2025',
+    sub: 'Lesgilles IT Solutions · Software Development Agency',
+    points: [
+      'Contributed to client web and mobile applications built with Angular, Ionic, and Firebase during a six-month industrial training placement.',
+      'Worked within an agency team on company projects.',
+    ],
+  },
+  {
+    title: 'Front-End Developer',
+    period: '2022 — 2023',
+    sub: 'Tiplogo Nigeria Limited',
+    points: [
+      'Built the company website (tiplogo.net) covering its business lines: seafood, logistics, LED lighting, ICT equipment, and a CBT services center.',
+      'Built a standalone computer-based testing (CBT) application for students writing exams online.',
     ],
   },
 ]
-
 export default function Experience() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
