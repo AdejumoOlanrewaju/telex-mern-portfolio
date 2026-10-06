@@ -1,32 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: 'Booker - Booking & Appointment System',
-    description:
-      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and authentication.',
-    stack: ['ReactJS', 'MongoDB', 'Node.js', 'Express', 'Tailwind CSS'],
-    color: '#fffbeb',
-    iconColor: '#d97706',
-    demo: 'https://booker-sigma.vercel.app',
-    github: 'https://github.com/AdejumoOlanrewaju/booker-frontend',
-    featured: false,
-  },
-
-  {
-    id: 2,
-    title: 'SIWES Placement System - AI-Powered Industrial Training Platform',
-    description:
-      'Full-stack platform connecting students, companies, and school admins for industrial training placement. Features role-based dashboards, AI-driven placement recommendations via Groq, company verification workflow, and SMS notifications.',
-    stack: ['Django', 'PostgreSQL', 'Bootstrap', 'Groq API', "Africa's Talking SMS API"],
-    color: '#fef3c7',
-    iconColor: '#b45309',
-    demo: 'https://placement-system-8gyc.onrender.com/', // add your Render deployment link here
-    github: 'https://github.com/AdejumoOlanrewaju/Placement-System',
-    featured: false,
-  },
-
-  {
-    id: 3,
     title: 'Telex Blog - Full Blog Website With Admin Dashboard',
     description:
       'Full stack blog website with admin dashboard, user authentication, and CRUD operations. Built with React, Firebase and Admin can Manage the blog content.',
@@ -39,6 +13,32 @@ export const projects = [
   },
 
   {
+    id: 2,
+    title: 'HAVEN - Premium Real Estate Platform',
+    description:
+      'Modern real estate platform with interactive GSAP animations, responsive property listings, location-based content, and a lead qualification flow for connecting clients with suitable properties.',
+    stack: ['NextJS', 'GSAP', 'Tailwind CSS', 'React'],
+    color: '#f5f5f4',
+    iconColor: '#57534e',
+    demo: 'https://telex-haven.vercel.app',
+    github: 'https://github.com/AdejumoOlanrewaju/real_automate',
+    featured: false,
+  },
+
+    {
+    id: 3,
+    title: 'Booker - Booking & Appointment System',
+    description:
+      'Appointment scheduling app for small businesses — clinics, salons, consultants. Features a calendar UI, email notifications, and authentication.',
+    stack: ['ReactJS', 'MongoDB', 'Node.js', 'Express', 'Tailwind CSS'],
+    color: '#fffbeb',
+    iconColor: '#d97706',
+    demo: 'https://booker-sigma.vercel.app',
+    github: 'https://github.com/AdejumoOlanrewaju/booker-frontend',
+    featured: false,
+  },
+
+    {
     id: 4,
     title: 'TelexZip - Video/Image Compressor & File Converter',
     description:
@@ -53,14 +53,14 @@ export const projects = [
 
   {
     id: 5,
-    title: 'TelexChat - Full-Stack Chat Application',
+    title: 'SIWES Placement System - AI-Powered Industrial Training Platform',
     description:
-      'Full stack chat application with real time messaging, user authentication, and nice UI. Built with Angular and Firebase',
-    stack: ['Angular', 'Firebase'],
-    color: '#fff1f2',
-    iconColor: '#e11d48',
-    demo: 'https://telex-chat-ng.vercel.app',
-    github: 'https://github.com/AdejumoOlanrewaju/telex-chat-ng',
+      'Full-stack platform connecting students, companies, and school admins for industrial training placement. Features role-based dashboards, AI-driven placement recommendations via Groq, company verification workflow, and SMS notifications.',
+    stack: ['Django', 'PostgreSQL', 'Bootstrap', 'Groq API', "Africa's Talking SMS API"],
+    color: '#fef3c7',
+    iconColor: '#b45309',
+    demo: 'https://placement-system-8gyc.onrender.com/', // add your Render deployment link here
+    github: 'https://github.com/AdejumoOlanrewaju/Placement-System',
     featured: false,
   },
 
@@ -76,7 +76,18 @@ export const projects = [
     featured: false,
   },
 
-
+  {
+    id: 7,
+    title: 'TelexChat - Full-Stack Chat Application',
+    description:
+      'Full stack chat application with real time messaging, user authentication, and nice UI. Built with Angular and Firebase',
+    stack: ['Angular', 'Firebase'],
+    color: '#fff1f2',
+    iconColor: '#e11d48',
+    demo: 'https://telex-chat-ng.vercel.app',
+    github: 'https://github.com/AdejumoOlanrewaju/telex-chat-ng',
+    featured: false,
+  },
 
 
 
@@ -85,7 +96,7 @@ export const projects = [
 export const skills = [
   {
     category: 'Frontend',
-    items: ['Next JS','React.js', 'Angular', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML & CSS'],
+    items: ['Next JS', 'React.js', 'Angular', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML & CSS'],
   },
   {
     category: 'Backend',
