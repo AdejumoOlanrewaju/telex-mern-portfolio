@@ -17,7 +17,7 @@ export const projects = [
     title: 'HAVEN - Premium Real Estate Platform',
     description:
       'Modern real estate platform with interactive GSAP animations, responsive property listings, location-based content, and a lead qualification flow for connecting clients with suitable properties.',
-    stack: ['NextJS', 'GSAP', 'Tailwind CSS', 'React'],
+    stack: ['GSAP', 'CSS', 'JS', 'ExpressJS'],
     color: '#f5f5f4',
     iconColor: '#57534e',
     demo: 'https://telex-haven.vercel.app',
